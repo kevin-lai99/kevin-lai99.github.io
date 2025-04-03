@@ -1,0 +1,211 @@
+body {
+  background-color: #bdbdbd;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #566573;
+  overflow: hidden;
+  position: sticky;
+  top: 5px;
+}
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13px 20px;
+  text-decoration: none;
+}
+.navbar #name {
+  color: white;
+  float: right;
+  text-align: center;
+  padding: 13px 20px;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #45b39d;
+  color: white;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+}
+.links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.links ul {
+  list-style-type: none;
+}
+
+.links #content {
+  border-style: ridge;
+  border: 2px solid rgb(85, 84, 84);
+  border-radius: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.catphotos img {
+  border-radius: 10%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.research img {
+  display: inline-block;
+  padding-left: 5%;
+}
+
+.research #para {
+  border-style: ridge;
+  border: 2px solid rgb(85, 84, 84);
+  border-radius: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 2%;
+  margin-bottom: 3%;
+}
+.identity p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.learning p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* widescreen displays */
+@media only screen and (min-width: 920px) {
+  h1 {
+    font-size: 3.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .navbar a {
+    font-size: 2rem;
+  }
+  .navbar #name {
+    font-size: 2em;
+  }
+
+  .links h2 {
+    font-size: 2.5em;
+  }
+  .links li {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    padding-right: 5%;
+  }
+
+  .catphotos img {
+    max-width: 20%;
+    height: auto;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .research h2 {
+    font-size: 2em;
+  }
+
+  .research img {
+    padding-bottom: 2%;
+  }
+  .identity p {
+    font-size: 1.25em;
+  }
+  .learning p {
+    font-size: 1.25em;
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .navbar a {
+    font-size: 1.5em;
+  }
+  .navbar #name {
+    font-size: 1.5em;
+  }
+  .links h2 {
+    font-size: 1.5em;
+  }
+  .links li {
+    font-size: 1.25em;
+    padding-bottom: 15px;
+    padding-right: 15%;
+  }
+  .catphotos img {
+    display: block;
+    height: auto;
+    width: 50%;
+    padding-bottom: 15px;
+  }
+  .research h2 {
+    font-size: 1.5em;
+  }
+  .research img {
+    display: block;
+    height: auto;
+    width: 50%;
+    padding-left: 25%;
+    padding-bottom: 5%;
+  }
+
+  .identity p {
+    font-size: 1.25em;
+  }
+  .learning p {
+    font-size: 1.25em;
+  }
+}
+
+/* phones */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .navbar a {
+    font-size: 1rem;
+  }
+  .navbar #name {
+    font-size: 1em;
+  }
+  .links h2 {
+    font-size: 1.25em;
+  }
+  .links li {
+    font-size: 1em;
+    padding-bottom: 10px;
+    padding-right: 22%;
+  }
+  .catphotos img {
+    display: block;
+    height: auto;
+    width: 50%;
+    padding-bottom: 10px;
+  }
+  .research h2 {
+    font-size: 1.25em;
+  }
+}
