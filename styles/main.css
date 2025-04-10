@@ -84,6 +84,34 @@ body {
   padding-right: 10%;
 }
 
+.js-dom p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.js-dom ol {
+  list-style-position: inside;
+}
+.js-dom h2 {
+  padding-top: 2%;
+}
+.js-dom #recipe {
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 15%;
+  padding-top: 2.5%;
+}
+.js-dom #bake {
+  display: inline;
+  height: auto;
+  width: 80%;
+  float: right;
+  padding-right: 25%;
+}
+.js-dom #p2-1st {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
   h1 {
