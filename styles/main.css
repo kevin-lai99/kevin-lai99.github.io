@@ -3,7 +3,10 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
-
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .navbar {
   background-color: #566573;
   overflow: hidden;
