@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <script>
+      function change() {
+        document.getElementById('Hello').innerHTML = 'Hi'
+      }
+    </script>
     <title>JS Fundamentals</title>
   </head>
   <body class="js-dom">
@@ -73,7 +78,11 @@
       This grabs the element with the id "Hello", and changes its text to "Hi!"
     </p>
     <img id="domss" src="../images/domss.jpg" />
-
+    <p>
+      <button id="Hello" type="button" onclick="change()">
+        This will change to 'Hi' when clicked
+      </button>
+    </p>
     <h2><u>Arrays vs Objects</u></h2>
     <p>
       Arrays and objects are similar, but differnt in their own way. Lets say
