@@ -7,6 +7,10 @@ p {
   padding-left: 10%;
   padding-right: 10%;
 }
+h2 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .navbar {
   background-color: #566573;
   overflow: hidden;
@@ -117,6 +121,9 @@ p {
 .neuro table {
   margin-left: auto;
   margin-right: auto;
+}
+.learning #FLP {
+  margin-top: 3%;
 }
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
